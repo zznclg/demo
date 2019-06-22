@@ -38,7 +38,7 @@ public class DemoApplication/* extends SpringBootServletInitializer*/ {
     @RequestMapping("/index/{number}")
     public String index(@PathVariable int number){
         System.out.println((20/number));
-        return "test successfully!!!";
+        return "get index page successfully";
     }
 
 
